@@ -4,29 +4,218 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
+	
+	<LinearLayout
+		android:orientation="horizontal"
+		android:minWidth="25px"
+		android:minHeight="25px"
+		android:layout_width="match_parent"
+		android:layout_height="80dp"
+		android:id="@+id/linearLayout1" >
+		<TextView
+			android:text="What is the capital of Canada?"
+			android:textAppearance="?android:attr/textAppearanceSmall"
+			android:layout_marginTop="40dp"
+			android:layout_width="wrap_content"
+			android:layout_height="match_parent"
+			android:id="@+id/textView2" />
+				
+				
+	</LinearLayout>
+	<LinearLayout
+		android:orientation="horizontal"
+		android:minWidth="25px"
+		android:minHeight="25px"
+		android:layout_width="match_parent"
+		android:layout_height="70dp"
+		android:layout_marginTop="60dp"
+		android:id="@+id/linearLayout2" >
+		<RadioGroup
+			android:minWidth="25px"
+			android:minHeight="25px"
+			android:layout_width="wrap_content"
+			android:orientation="horizontal"
+			android:layout_height="match_parent"
+			android:id="@+id/radioGroup1">
+			<RadioButton
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="Toronto"
+				android:id="@+id/radioButton1" />
+			<RadioButton
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="Ottawa"
+				android:id="@+id/radioButton2" />
+			<RadioButton
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="Montreal"
+				android:id="@+id/radioButton3" />
+			<RadioButton
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="Vancouver"
+				android:id="@+id/radioButton4" />
+		</RadioGroup>
+	</LinearLayout>
+	<GridLayout
+		android:minWidth="25px"
+		android:minHeight="25px"	
+		android:rowCount ="8"
+		android:columnCount = "1"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:id="@+id/gridLayout1" />
+			<TextView
+			android:text="What is the capital of India?"
+			android:textAppearance="?android:attr/textAppearanceSmall"
+			android:layout_marginTop="100dp"
+			android:layout_width="wrap_content"
+			android:layout_height="match_parent"
+			android:id="@+id/textView2" />
+			<RadioGroup
+			android:minWidth="25px"
+			android:minHeight="25px"
+			android:layout_width="wrap_content"
+		    android:layout_marginTop="120dp"
+			android:orientation="horizontal"
+			android:layout_height="match_parent"
+			android:id="@+id/radioGroup1">
+			<RadioButton
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="Toronto"
+				android:id="@+id/radioButton1" />
+			<RadioButton
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="Ottawa"
+				android:id="@+id/radioButton2" />
+			<RadioButton
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="Montreal"
+				android:id="@+id/radioButton3" />
+			<RadioButton
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="Vancouver"
+				android:id="@+id/radioButton4" />
+		</RadioGroup>
+			<TextView
+			android:text="What is the capital of USA?"
+			android:textAppearance="?android:attr/textAppearanceSmall"
+			android:layout_marginTop="160dp"
+			android:layout_width="wrap_content"
+			android:layout_height="match_parent"
+			android:id="@+id/textView2" />
+			<RadioGroup
+			android:minWidth="25px"
+			android:minHeight="25px"
+			android:layout_width="wrap_content"
+		    android:layout_marginTop="180dp"
+			android:orientation="horizontal"
+			android:layout_height="match_parent"
+			android:id="@+id/radioGroup1">
+			<RadioButton
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="Toronto"
+				android:id="@+id/radioButton1" />
+			<RadioButton
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="Ottawa"
+				android:id="@+id/radioButton2" />
+			<RadioButton
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="Montreal"
+				android:id="@+id/radioButton3" />
+			<RadioButton
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="Vancouver"
+				android:id="@+id/radioButton4" />
+		</RadioGroup>
+					<TextView
+			android:text="What is the capital of Australia?"
+			android:textAppearance="?android:attr/textAppearanceSmall"
+			android:layout_marginTop="220dp"
+			android:layout_width="wrap_content"
+			android:layout_height="match_parent"
+			android:id="@+id/textView2" />
+			<RadioGroup
+			android:minWidth="25px"
+			android:minHeight="25px"
+			android:layout_width="wrap_content"
+		    android:layout_marginTop="240dp"
+			android:orientation="horizontal"
+			android:layout_height="match_parent"
+			android:id="@+id/radioGroup1">
+			<RadioButton
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="Toronto"
+				android:id="@+id/radioButton1" />
+			<RadioButton
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="Ottawa"
+				android:id="@+id/radioButton2" />
+			<RadioButton
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="Montreal"
+				android:id="@+id/radioButton3" />
+			<RadioButton
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="Vancouver"
+				android:id="@+id/radioButton4" />
+		</RadioGroup>
 
-    <android.support.design.widget.AppBarLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:theme="@style/AppTheme.AppBarOverlay">
+					<TextView
+			android:text="What is the capital of New Zealand?"
+			android:textAppearance="?android:attr/textAppearanceSmall"
+			android:layout_marginTop="280dp"
+			android:layout_width="wrap_content"
+			android:layout_height="match_parent"
+			android:id="@+id/textView2" />
+			<RadioGroup
+			android:minWidth="25px"
+			android:minHeight="25px"
+			android:layout_width="wrap_content"
+		    android:layout_marginTop="300dp"
+			android:orientation="horizontal"
+			android:layout_height="match_parent"
+			android:id="@+id/radioGroup1">
+			<RadioButton
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="Toronto"
+				android:id="@+id/radioButton1" />
+			<RadioButton
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="Ottawa"
+				android:id="@+id/radioButton2" />
+			<RadioButton
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="Montreal"
+				android:id="@+id/radioButton3" />
+			<RadioButton
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="Vancouver"
+				android:id="@+id/radioButton4" />
+		</RadioGroup>
 
-        <android.support.v7.widget.Toolbar
-            android:id="@+id/toolbar"
-            android:layout_width="match_parent"
-            android:layout_height="?attr/actionBarSize"
-            android:background="?attr/colorPrimary"
-            app:popupTheme="@style/AppTheme.PopupOverlay" />
 
-    </android.support.design.widget.AppBarLayout>
+	
 
-    <include layout="@layout/content_main" />
-
-    <android.support.design.widget.FloatingActionButton
-        android:id="@+id/fab"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="bottom|end"
-        android:layout_margin="@dimen/fab_margin"
-        app:srcCompat="@android:drawable/ic_dialog_email" />
+	
 
 </android.support.design.widget.CoordinatorLayout>
